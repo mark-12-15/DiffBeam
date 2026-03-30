@@ -9,11 +9,19 @@ export default function Navigation() {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-md border-b border-gray-100">
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
         {/* Logo */}
-        <a href="/" className="flex items-baseline gap-0 leading-none">
-          <span className="font-extrabold text-slate-900 tracking-tight text-lg">Diff</span>
-          <span className="font-light text-slate-500 tracking-tight text-lg">Beam</span>
-          <span className="text-[#1a3a5c] font-bold text-xl leading-none">.</span>
-          <span className="ml-1.5 text-[10px] font-semibold text-slate-400 uppercase tracking-widest self-center">Studios</span>
+        <a href="/" className="flex items-center gap-2.5">
+          {/* Logo mark */}
+          <div className="w-8 h-8 rounded-lg bg-slate-900 flex items-center justify-center flex-shrink-0">
+            <span className="text-white font-extrabold text-base leading-none">B</span>
+          </div>
+          {/* Wordmark */}
+          <div className="flex flex-col leading-none">
+            <span className="leading-none">
+              <span className="font-medium text-slate-500 text-sm">Diff</span>
+              <span className="font-extrabold text-slate-900 tracking-tight text-sm">Beam</span>
+            </span>
+            <span className="text-[9px] font-semibold text-slate-400 uppercase tracking-[0.18em] mt-0.5">Studios</span>
+          </div>
         </a>
 
         {/* Desktop Links */}

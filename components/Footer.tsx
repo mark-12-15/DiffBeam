@@ -6,12 +6,18 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mb-10">
           {/* Brand */}
           <div>
-            <p className="font-semibold text-gray-900 text-base mb-2 flex items-baseline gap-0">
-              <span className="font-extrabold text-slate-900">Diff</span>
-              <span className="font-light text-slate-500">Beam</span>
-              <span className="text-[#1a3a5c] font-bold">.</span>
-              <span className="ml-1.5 text-[10px] font-semibold text-slate-400 uppercase tracking-widest self-center">Studios</span>
-            </p>
+            <div className="flex items-center gap-2.5 mb-3">
+              <div className="w-8 h-8 rounded-lg bg-slate-900 flex items-center justify-center flex-shrink-0">
+                <span className="text-white font-extrabold text-base leading-none">B</span>
+              </div>
+              <div className="flex flex-col leading-none">
+                <span className="leading-none">
+                  <span className="font-medium text-slate-500 text-sm">Diff</span>
+                  <span className="font-extrabold text-slate-900 tracking-tight text-sm">Beam</span>
+                </span>
+                <span className="text-[9px] font-semibold text-slate-400 uppercase tracking-[0.18em] mt-0.5">Studios</span>
+              </div>
+            </div>
             <p className="text-sm text-gray-500 leading-relaxed">
               Single-purpose SaaS tools for professionals and independent businesses.
             </p>
