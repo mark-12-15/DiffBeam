@@ -36,7 +36,7 @@ export default function Toolbox() {
             </p>
 
             <a
-              href="https://stoopkeep.com"
+              href="https://stoopkeep.diffbeam.com"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1.5 text-sm font-semibold text-blue-600 hover:text-blue-800 transition-colors"

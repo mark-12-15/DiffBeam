@@ -7,7 +7,7 @@ The public marketing site for [DiffBeam Studios](https://diffbeam.com), an indep
 DiffBeam Studios identifies painful, manual workflows faced by professionals (landlords, freelancers, small agencies) and builds focused tools to eliminate them. One problem per tool. Nothing more, nothing less.
 
 **Live products:**
-- [StoopKeep](https://stoopkeep.com) — Maintenance tracking and expense ledger for US landlords
+- [StoopKeep](https://stoopkeep.diffbeam.com) — Maintenance tracking and expense ledger for US landlords
 
 ## Tech Stack
 
