@@ -9,6 +9,7 @@ const config: Config = {
     extend: {
       fontFamily: {
         mono: ['JetBrains Mono', 'Fira Code', 'Consolas', 'monospace'],
+        display: ['Lora', 'Georgia', 'serif'],
       },
       colors: {
         beam: {

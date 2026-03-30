@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@600;700&family=Inter:wght@300;400;500;600;700&display=swap');
 
 * {
   box-sizing: border-box;
@@ -13,7 +13,7 @@ html {
 }
 
 body {
-  background-color: #ffffff;
+  background-color: #faf9f7;
   color: #111827;
   font-family: 'Inter', sans-serif;
   -webkit-font-smoothing: antialiased;

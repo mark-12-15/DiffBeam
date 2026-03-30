@@ -49,7 +49,7 @@ export default function Footer() {
             </div>
           </div>
           <p className="text-xs text-gray-400">
-            Operated by Tianjin Heping District Juexing Network Technology Studio.
+            DiffBeam Studios serves customers worldwide. Legal entity: Tianjin Heping District Juexing Network Technology Studio, China.
           </p>
         </div>
       </div>
