@@ -20,7 +20,6 @@ export default function Navigation() {
         <div className="hidden md:flex items-center gap-8 text-sm text-gray-500">
           <a href="#toolbox" className="hover:text-gray-900 transition-colors">The Toolbox</a>
           <a href="#lab" className="hover:text-gray-900 transition-colors">The Lab</a>
-          <a href="#changelog" className="hover:text-gray-900 transition-colors">Changelog</a>
         </div>
 
         {/* Mobile Toggle */}
@@ -44,7 +43,6 @@ export default function Navigation() {
         <div className="md:hidden px-6 pb-5 flex flex-col gap-4 text-sm text-gray-600 border-t border-gray-100">
           <a href="#toolbox" className="hover:text-gray-900 pt-4" onClick={() => setMenuOpen(false)}>The Toolbox</a>
           <a href="#lab" className="hover:text-gray-900" onClick={() => setMenuOpen(false)}>The Lab</a>
-          <a href="#changelog" className="hover:text-gray-900" onClick={() => setMenuOpen(false)}>Changelog</a>
         </div>
       )}
     </nav>
