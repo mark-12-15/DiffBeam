@@ -6,7 +6,12 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mb-10">
           {/* Brand */}
           <div>
-            <p className="font-semibold text-gray-900 text-base mb-2">DiffBeam Studios</p>
+            <p className="font-semibold text-gray-900 text-base mb-2 flex items-baseline gap-0">
+              <span className="font-extrabold text-slate-900">Diff</span>
+              <span className="font-light text-slate-500">Beam</span>
+              <span className="text-[#1a3a5c] font-bold">.</span>
+              <span className="ml-1.5 text-[10px] font-semibold text-slate-400 uppercase tracking-widest self-center">Studios</span>
+            </p>
             <p className="text-sm text-gray-500 leading-relaxed">
               Single-purpose SaaS tools for professionals and independent businesses.
             </p>
@@ -18,7 +23,6 @@ export default function Footer() {
             <ul className="space-y-2.5 text-sm text-gray-500">
               <li><a href="#toolbox" className="hover:text-gray-900 transition-colors">The Toolbox</a></li>
               <li><a href="#lab" className="hover:text-gray-900 transition-colors">The Lab</a></li>
-              <li><a href="#changelog" className="hover:text-gray-900 transition-colors">Changelog</a></li>
             </ul>
           </div>
 
