@@ -36,48 +36,50 @@ const trustBadges = [
 
 export default function HeroSection() {
   return (
-    <section className="pt-32 pb-28 px-6 bg-[#faf9f7]">
-      <div className="max-w-4xl mx-auto text-center">
-        {/* Eyebrow */}
-        <div className="inline-block mb-8 px-3 py-1 rounded-full bg-white border border-gray-200 shadow-sm">
-          <span className="text-xs text-gray-500 font-medium tracking-wide">
-            A boutique software workshop
-          </span>
-        </div>
-
-        {/* H1 */}
-        <h1 className="font-display text-5xl md:text-6xl font-bold text-gray-900 leading-tight mb-6" style={{ letterSpacing: '-0.02em' }}>
-          Simple tools for people tired of<br />doing things the hard way.
-        </h1>
-
-        {/* H2 */}
-        <p className="text-lg md:text-xl text-gray-500 leading-loose max-w-2xl mx-auto mb-10">
-          We build small, focused software that solves one real problem — and nothing else.
-          No bloated subscriptions. No learning curve.
-        </p>
-
-        {/* CTA */}
-        <a
-          href="#toolbox"
-          className="inline-flex items-center gap-2 px-7 py-3.5 bg-[#1a3a5c] text-white text-sm font-semibold rounded-lg hover:bg-[#152e4a] transition-colors shadow-sm"
-        >
-          See Our Tools
-          <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-          </svg>
-        </a>
-
-        {/* Consumer trust badges */}
-        <div className="mt-16 pt-10 border-t border-gray-200">
-          <p className="text-xs text-gray-400 uppercase tracking-widest mb-6">Your security, our priority</p>
-          <div className="flex flex-wrap items-center justify-center gap-4">
-            {trustBadges.map((b) => (
-              <div key={b.label} className="flex items-center gap-2 px-4 py-2.5 rounded-lg border border-gray-200 bg-white shadow-sm">
-                <span className="text-[#1a3a5c]">{b.icon}</span>
-                <span className="text-xs font-semibold text-gray-700">{b.label}</span>
-              </div>
-            ))}
+    <section className="bg-[#faf9f7]">
+      {/* Hero content */}
+      <div className="pt-32 pb-20 px-6">
+        <div className="max-w-4xl mx-auto text-center">
+          {/* Eyebrow */}
+          <div className="inline-block mb-8 px-3 py-1 rounded-full bg-white border border-gray-200 shadow-sm">
+            <span className="text-xs text-gray-500 font-medium tracking-wide">
+              A boutique software workshop
+            </span>
           </div>
+
+          {/* H1 — max-w-3xl prevents awkward orphan wrap */}
+          <h1 className="font-display text-5xl md:text-6xl font-bold text-gray-900 leading-tight mb-6 max-w-3xl mx-auto" style={{ letterSpacing: '-0.02em' }}>
+            Simple tools for people tired of doing things the hard way.
+          </h1>
+
+          {/* H2 */}
+          <p className="text-lg md:text-xl text-gray-500 leading-loose max-w-2xl mx-auto mb-10">
+            We build small, focused software that solves one real problem — and nothing else.
+            No bloated subscriptions. No learning curve.
+          </p>
+
+          {/* CTA */}
+          <a
+            href="#toolbox"
+            className="inline-flex items-center gap-2 px-7 py-3.5 bg-[#1a3a5c] text-white text-sm font-semibold rounded-lg hover:bg-[#152e4a] transition-colors shadow-sm"
+          >
+            See Our Tools
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      {/* Trust banner — full-width, anchors the section */}
+      <div className="border-y border-gray-200 bg-slate-50 py-5 px-6">
+        <div className="max-w-6xl mx-auto flex flex-wrap items-center justify-center gap-8">
+          {trustBadges.map((b) => (
+            <div key={b.label} className="flex items-center gap-2">
+              <span className="text-[#1a3a5c]">{b.icon}</span>
+              <span className="text-xs font-semibold text-gray-600">{b.label}</span>
+            </div>
+          ))}
         </div>
       </div>
     </section>
