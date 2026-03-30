@@ -13,7 +13,7 @@ export default function FounderNote() {
                 className="w-12 h-12 rounded-full object-cover shadow-sm border border-blue-200 flex-shrink-0"
               />
               <div>
-                <p className="text-white font-semibold text-sm">The Founder</p>
+                <p className="text-white font-semibold text-sm">Mark</p>
                 <p className="text-blue-300 text-xs">DiffBeam Studios</p>
               </div>
             </div>

@@ -15,12 +15,12 @@ export default function Navigation() {
             <span className="text-white font-extrabold text-base leading-none">B</span>
           </div>
           {/* Wordmark */}
-          <div className="flex flex-col leading-none">
+          <div className="flex flex-col justify-center gap-[3px] leading-none">
             <span className="leading-none">
               <span className="font-medium text-slate-500 text-sm">Diff</span>
               <span className="font-extrabold text-slate-900 tracking-tight text-sm">Beam</span>
             </span>
-            <span className="text-[9px] font-semibold text-slate-400 uppercase tracking-[0.18em] mt-0.5">Studios</span>
+            <span className="text-[9px] font-semibold text-slate-400 uppercase tracking-[0.18em]">Studios</span>
           </div>
         </a>
 
