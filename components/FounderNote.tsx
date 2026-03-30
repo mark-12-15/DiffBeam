@@ -7,11 +7,11 @@ export default function FounderNote() {
 
             {/* Avatar + identity */}
             <div className="flex items-center gap-4 mb-8">
-              <div className="w-12 h-12 rounded-full bg-blue-200 flex items-center justify-center flex-shrink-0">
-                <svg className="w-6 h-6 text-[#1a3a5c]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-                </svg>
-              </div>
+              <img
+                src="https://api.dicebear.com/8.x/notionists/svg?seed=DiffBeamFounder&backgroundColor=f8fafc"
+                alt="Founder of DiffBeam"
+                className="w-12 h-12 rounded-full object-cover shadow-sm border border-blue-200 flex-shrink-0"
+              />
               <div>
                 <p className="text-white font-semibold text-sm">The Founder</p>
                 <p className="text-blue-300 text-xs">DiffBeam Studios</p>
