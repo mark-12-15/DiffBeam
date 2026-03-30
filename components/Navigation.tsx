@@ -9,8 +9,11 @@ export default function Navigation() {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-md border-b border-gray-100">
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
         {/* Logo */}
-        <a href="/" className="font-semibold text-gray-900 text-base tracking-tight">
-          DiffBeam Studios
+        <a href="/" className="flex items-baseline gap-0 leading-none">
+          <span className="font-extrabold text-slate-900 tracking-tight text-lg">Diff</span>
+          <span className="font-light text-slate-500 tracking-tight text-lg">Beam</span>
+          <span className="text-[#1a3a5c] font-bold text-xl leading-none">.</span>
+          <span className="ml-1.5 text-[10px] font-semibold text-slate-400 uppercase tracking-widest self-center">Studios</span>
         </a>
 
         {/* Desktop Links */}
