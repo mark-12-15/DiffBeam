@@ -8,6 +8,7 @@ DiffBeam Studios identifies painful, manual workflows faced by professionals (la
 
 **Live products:**
 - [StoopKeep](https://stoopkeep.diffbeam.com) — Maintenance tracking and expense ledger for US landlords
+- [PalmOracle](https://palmoracle.diffbeam.com) — AI-powered Chinese palm fortune-telling using the 12 Earthly Branches system
 
 ## Tech Stack
 

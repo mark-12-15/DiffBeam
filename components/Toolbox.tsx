@@ -48,7 +48,38 @@ export default function Toolbox() {
             </a>
           </div>
 
-          {/* Card 2: What should we build next? */}
+          {/* Card 2: PalmOracle — elevated, finished product */}
+          <div className="flex flex-col p-8 bg-white rounded-xl border border-gray-100 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+            {/* Icon */}
+            <div className="w-10 h-10 flex items-center justify-center rounded-lg bg-amber-50 text-amber-600 mb-6">
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01" />
+              </svg>
+            </div>
+
+            <div className="flex items-center gap-2 mb-3">
+              <h3 className="text-xl font-bold text-gray-900">达摩一掌经 (PalmOracle)</h3>
+              <span className="text-xs font-medium text-emerald-600 bg-emerald-50 border border-emerald-100 px-2 py-0.5 rounded-full">Live</span>
+            </div>
+
+            <p className="text-gray-600 leading-relaxed flex-grow mb-6">
+              Traditional Chinese palm fortune-telling powered by AI. Enter your birth info, discover your fate palace and life path.
+            </p>
+
+            <a
+              href="https://palmoracle.diffbeam.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 text-sm font-semibold text-blue-600 hover:text-blue-800 transition-colors"
+            >
+              Visit PalmOracle
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg>
+            </a>
+          </div>
+
+          {/* Card 3: What should we build next? */}
           <div className="flex flex-col p-8 bg-gray-50 rounded-xl border border-gray-200 hover:border-gray-300 transition-all">
             {/* Icon */}
             <div className="w-10 h-10 flex items-center justify-center rounded-lg bg-gray-200 text-gray-500 mb-6">
